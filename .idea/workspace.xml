@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca80bd25-ebb6-4ff0-9493-f410719fe1b0" name="Changes" comment="" />
+    <list default="true" id="ca80bd25-ebb6-4ff0-9493-f410719fe1b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/terraform.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/alb.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/asg.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/backend.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/providers.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/rds.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/security_groups.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/user_data.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/vpc.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
