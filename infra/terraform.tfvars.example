@@ -1,0 +1,14 @@
+aws_region = "eu-central-1"
+project_name = "iac-web-stack"
+
+
+# Replace with your details
+key_pair_name = "my-key"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQ..."
+ssh_cidr = "YOUR_IP/32" # e.g. 203.0.113.10/32
+
+
+# DB values – set real password locally, never commit it
+db_name = "appdb"
+db_username = "appuser"
+db_password = "CHANGE_ME"

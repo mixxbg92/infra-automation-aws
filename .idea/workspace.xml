@@ -5,19 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca80bd25-ebb6-4ff0-9493-f410719fe1b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/terraform.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/alb.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/asg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/backend.hcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/outputs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/providers.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/rds.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/security_groups.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/user_data.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/vpc.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fix-tf.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/.terraform.lock.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra.7z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/.terraform.lock.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/alb.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/ami.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/asg.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/backend.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/destroy-and-verify.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/lt.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/providers.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/rds.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/security_groups.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/user_data.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/infra/vpc.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform.tfvars.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/tfplan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/userdata.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/terraform.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/terraform.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/alb.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/asg.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/backend.hcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/outputs.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/providers.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/providers.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/rds.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/security_groups.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/user_data.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/vpc.tf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +67,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/hristo.rusev/OneDrive - Scale Focus AD/Desktop/infra-automation-aws/infra-automation-aws&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hristo.rusev\OneDrive - Scale Focus AD\Desktop\infra-automation-aws\infra-automation-aws\infra" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
