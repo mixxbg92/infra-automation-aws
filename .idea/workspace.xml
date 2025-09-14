@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca80bd25-ebb6-4ff0-9493-f410719fe1b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/terraform.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/terraform.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README .md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/.terraform.lock.hcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/alb.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/ami.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/asg.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/backend.hcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/destroy-and-verify.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/lt.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/providers.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/rds.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/security_groups.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/user_data.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/infra/vpc.tf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
